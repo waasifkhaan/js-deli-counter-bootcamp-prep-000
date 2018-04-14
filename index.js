@@ -20,7 +20,7 @@ function nowServing(katzDeliLine){
     else{
       var arr =[];
       for(let i = 0 ; i<katzDeliLine.length; i++ ){
-        arr.push(`${i+1}`+ '. ' + `${katzDeliLine[i]}`)
+        arr.push(`${i+1}` + '. ' + `${katzDeliLine[i]}` + '')
         //newline.push(`${i + 1}` + '.' + `${line[i]}`)
 
     //("The line is currently: 1. Bill, 2. Jane, 3. Ann");
@@ -30,3 +30,23 @@ function nowServing(katzDeliLine){
 
 
   }
+
+  From Brad Smith to Everyone:  05:35 PM
+newline.push(`${i + 1}` + '.' + `${line[i]}`)
+// first way...
+		// line.forEach(function(customer, index) {
+		//   var position = index + 1;
+		//   newLine.push(" "+ position + ". " + customer);
+		// });
+
+		// using Arrow function...
+		line.forEach((customer, index) => {
+			var position = index + 1;
+			newLine.push(" " + position + ". " + customer);
+		});
+
+		// using for loop...
+		// for (let i = 0; i < line.length; i++) {
+		// 	newline.push(`${i + 1}` + '.' + `${line[i]}`)
+		// }
+

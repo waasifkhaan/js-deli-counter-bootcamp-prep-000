@@ -20,7 +20,7 @@ function nowServing(katzDeliLine){
     else{
       var arr =[];
       for(let i = 0 ; i<katzDeliLine.length; i++ ){
-        arr.push(`${i+1}` + '. ' + `${katzDeliLine[i]}`)
+        arr.push(`${i+1}`+ '. ' + `${katzDeliLine[i]}`)
         //newline.push(`${i + 1}` + '.' + `${line[i]}`)
 
     //("The line is currently: 1. Bill, 2. Jane, 3. Ann");

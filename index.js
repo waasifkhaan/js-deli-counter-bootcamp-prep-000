@@ -23,7 +23,7 @@ function nowServing(katzDeliLine){
         if (i==0){
         arr.push(`${i+1}` + '. ' +  `${katzDeliLine[i]}`)}
         else{
-          arr.push(`${i+1}` + '. ' +  `${katzDeliLine[i]}`)
+          arr.push(` ${i+1}` + '. ' +  `${katzDeliLine[i]}`)
         }
             }
       return "The line is currently: " +  arr

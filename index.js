@@ -6,7 +6,7 @@ function nowServing(katzDeliLine){
   if( katzDeliLine.length > 0){
     katzDeliLine.splice(1)
     return `Currently serving ${katzDeliLine[0]}.`
-    
+
 
   }
   else{

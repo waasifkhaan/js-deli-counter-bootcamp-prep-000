@@ -20,7 +20,11 @@ function nowServing(katzDeliLine){
     else{
       var arr =[];
       for(let i = 0 ; i<katzDeliLine.length; i++ ){
-        arr.push(`${i+1}` + '. ' +  `${katzDeliLine[i]}`)
+        if (i==0){
+        arr.push(`${i+1}` + '. ' +  `${katzDeliLine[i]}`)}
+        else{
+          arr.push(`${i+1}` + '. ' +  `${katzDeliLine[i]} `)
+        }
             }
       return "The line is currently: " +  arr
     }

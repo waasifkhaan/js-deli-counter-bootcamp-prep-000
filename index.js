@@ -25,7 +25,6 @@ function nowServing(katzDeliLine){
       return "The line is currently: " +  arr
     }
 
-
   }
 
 
@@ -37,10 +36,10 @@ function nowServing(katzDeliLine){
 		// });
 
 		// using Arrow function...
-		line.forEach((customer, index) => {
-			var position = index + 1;
-			newLine.push(" " + position + ". " + customer);
-		});
+		//line.forEach((customer, index) => {
+			//var position = index + 1;
+			//newLine.push(" " + position + ". " + customer);
+		//});
 
 		// using for loop...
 		// for (let i = 0; i < line.length; i++) {

@@ -49,4 +49,3 @@ newline.push(`${i + 1}` + '.' + `${line[i]}`)
 		// for (let i = 0; i < line.length; i++) {
 		// 	newline.push(`${i + 1}` + '.' + `${line[i]}`)
 		// }
-

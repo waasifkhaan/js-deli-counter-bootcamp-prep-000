@@ -9,7 +9,7 @@ function nowServing(katzDeliLine){
   else{
     katzDeliLine.splice(1);
     return `Currently serving ${katzDeliLine[0]}.`
-    
+
   }
   }
 
